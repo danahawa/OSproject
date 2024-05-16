@@ -182,7 +182,9 @@ if __name__ == "__main__":
         print(p,'|',time,sep="",end='   ') 
     print('\n')
     print('---------------------------------------------------------------------------------------------------------')  
-   
+    print('\n')
+    print("Process Control Block")
+    print('\n')
     for process in completed_processes:
         print(f"id:{process.pid}  |   start time:{process.start_time}  |   finish time:{process.finish_time} |  waiting time :{process.waiting_time}  |  turnaround time:{process.turnaround_time}")    
         print('\n')
